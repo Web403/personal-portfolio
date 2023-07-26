@@ -1,0 +1,39 @@
+.skills{
+    background-color: #120E43;
+    width: 100vw;
+    height: 60vh;
+    border-bottom: 2px solid #00acee;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.block-container{
+    display: flex;
+    height: 40vh;
+    margin: auto 0px;
+}
+.skills h1{
+    color: #DDD101;
+    font-size: 60px;
+    margin-left: 35%;
+    font-family: 'Oswald';
+}
+.skills-block{
+    width: 500px;
+    height: 120px;
+    background-color: chartreuse;
+    border-radius: 60px;
+    margin: auto;
+}
+.skills-block:hover{
+    background-color: #DDD101;
+    transition-duration: 0.4s;
+}
+.skills-block h1{
+    position: relative;
+    margin-left: 25%;
+    top: 20%;
+    font-size: 50px;
+    color: #8D3DAF;
+}

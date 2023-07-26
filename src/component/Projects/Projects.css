@@ -1,0 +1,44 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    background-color: #120E43;
+}
+.Projects h1{
+    color: #DDD101;
+    font-size: 60px;
+    font-family: 'Oswald';
+    margin-left: 40%;
+}
+.project-block{
+    width: 90vw;
+    height: 250px;
+    background-color: rgb(29, 10, 46);
+    border-radius: 160px;
+    margin: 80px;
+}
+.project-block h2{
+    margin: 30px;
+    color: #DDD101;
+    margin-left: 30%;
+    font-size: 70px;
+    font-family: 'Kanit';
+}
+.project-block p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: #8D3DAF;
+}
+.project-block:hover{
+    background-color: #242B2E;
+    transition-duration: 0.4s;
+}
+.project-header{
+    display: flex;
+}
+.project-header p{
+    margin: auto;
+    color: #00acee;
+    font-family: 'Play';
+    font-size: 30px;
+}
